@@ -61,27 +61,7 @@ Value = Token <JWT_TOKEN>
   ]
 }
 
-
-### 1. Struktur Project
-
-com.example.employed_api
-├── config/
-│   ├── JwtAuthFilter.java
-│   └── SecurityConfig.java
-├── controller/
-│   ├── AuthController.java
-│   └── EmployeController.java
-├── model/
-│   ├── ApiResponse.java
-│   ├── AuthRequest.java
-│   ├── AuthResponse.java
-│   ├── Employe.java
-│   └── WrapResponse.java
-├── service/
-│   ├── EmployeeService.java
-│   └── JwtService.java
-
-### 2. Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/username/employed_api.git
 cd employed_api
